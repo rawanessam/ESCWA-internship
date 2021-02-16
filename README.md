@@ -1,7 +1,8 @@
 # Entrepreneurship-in-MENA-Region
 This project intends to collect and analyze data on the entrepreneurship ecosystem in Egypt and MENA Region to with the purpose of providing valuable insights for investors, entrepreneurs and young professionals. This project was intiated and excuted as a part of an internship program at ESCWA technology center.
-
-## 1- Data:
+# Project phase one: 
+ In this phase resreach for existing dataset on the MENA entrepreneurial eco-system was conducted. No comprehensive dataset that includes all MENA counteries was found, thus the need to construct one emereged. However an open source and up to date dataset of news on entrepreneurial scene was found which made it easier to construct a dataset for the rest of MENA counteries.
+## 1- Initial data collection:
   The data was originally collected from: https://egyptinnovate.com/en/datasets/bazaar?keywords= The dataset consisted of arabic and English news articles about entrepreneurship     in Egypt. The website offers the dataset in CSV, json and API format. The dataset gets updated once- twice a month, therefore downloading the CSV file and using the files         locally is not an optimal option. API datset gives access to fas less records than CSV or json. Json format on the other hand is accessed through a webpage that can scrapped       periodically to acquire up to date data. As a result the proposed script has a function that scrapes the json file whenever the code is run. 
   
 ## 2-Data preprocessing: 
